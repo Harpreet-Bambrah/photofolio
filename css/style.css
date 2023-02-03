@@ -40,6 +40,7 @@ body{
   .text-color{
     color:  rgba(255, 255, 255, 0.6) !important;
   }
+<<<<<<< HEAD
 
 
   .font-size{
@@ -126,12 +127,22 @@ body{
   }
 
   .material-symbols-outlinedd {
+=======
+body{
+    background-color: black !important;
+    color:#fff;
+    margin: 0;
+}
+
+.material-symbols-outlined {
+>>>>>>> esha
     font-variation-settings:
     'FILL' 0,
     'wght' 400,
     'GRAD' 0,
     'opsz' 48
   }
+<<<<<<< HEAD
   .material-symbols-outlinedd {
       font-family: 'Material Symbols Outlined';
       color: white;
@@ -151,3 +162,35 @@ body{
       /* -webkit-font-feature-settings: 'liga'; */
       -webkit-font-smoothing: antialiased;
   }
+=======
+
+  .material-symbols-outlined{
+    font-size: 45px !important;
+  }
+
+  .nav-link{
+    color: #fff !important;
+  }
+
+  .dropdown-item{
+    color: #fff !important;
+  }
+
+  :root, [data-bs-theme=light]{
+
+    --bs-tertiary-bg: #black !important;
+  }
+
+  .navbar-toggler{
+    color: #fff !important;
+  }
+
+  .font{
+    font-family: "Cardo", sans-serif !important;
+  }
+
+  .text-color{
+    color:  rgba(255, 255, 255, 0.6) !important;
+  }
+
+>>>>>>> esha
